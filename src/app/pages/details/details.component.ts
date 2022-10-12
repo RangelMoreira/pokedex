@@ -35,7 +35,7 @@ export class DetailsComponent implements OnInit {
     const name = this.pokeApiService.apiGetPokemons(`${this.urlName}/${id}`);
 
     /*O Forkjoin permite efetuar as duas requisições juntas, para que uma não espere a outra*/
-    /*No caso ele retorna dois valores, um para cada chmada*/
+    /*No caso ele retorna dois valores, um para cada chamada*/
     return forkJoin([pokemon, name]).subscribe(
         res =>{
           this.pokemon = res;
