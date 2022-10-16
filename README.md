@@ -7,7 +7,7 @@ https://rangelmoreira.github.io/pokedex/
 
 Pokedex é uma aplicação Frontend Angular desenvolvida durante o curso Angular 2 (v14+) Typescript do Básico ao Avançado, ministrado por Dener São Pedro Troquatte.
 
-O software consiste em uma aplicação Frontend a qual efetua requisições para a api (pokeapi) para obtenção dos dados dos pokemons e efetua a listagem e exibição dos detalhes a partir disso.
+O software consiste em uma aplicação Frontend a qual efetua requisições para a api (pokeapi) para obtenção dos dados dos pokemons fazendo a listagem e exibição dos detalhes a partir disso.
 
 Nesse projeto foram trabalhadas questões como efetuar requisições com “forkJoin”, listagem de dados, busca de valores dentro de uma lista de objetos, boas práticas e animações no CSS/SCSS e componentização com o Angular.
 
